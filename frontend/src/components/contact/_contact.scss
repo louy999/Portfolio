@@ -1,0 +1,119 @@
+.contact {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  h1 {
+    text-align: center;
+    margin: 3em 0;
+  }
+  .con-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    gap: 3em;
+    flex-wrap: wrap;
+    .info {
+      padding: 1em 2em;
+      margin: 1em 0;
+      border: 1px solid white;
+      border-radius: 23px;
+      div {
+        margin: 1em 0;
+        span,
+        a {
+          margin: 0 0.5em;
+        }
+        a {
+          color: white;
+          text-decoration: none;
+          &:hover {
+            color: $bro;
+            transition: 0.3s;
+            text-decoration: line-through;
+          }
+        }
+      }
+    }
+  }
+  .form {
+    width: 50%;
+    position: relative;
+    .email-name {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3em;
+      gap: 0.5em;
+      div {
+        width: 100%;
+      }
+    }
+    textarea {
+      height: 10em;
+      resize: none;
+    }
+    .button-64 {
+      position: absolute;
+      padding: 2em 0;
+      right: 0;
+      button {
+        font: 1.4em;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .contact {
+    .con-content {
+      justify-content: center;
+      .info {
+        div {
+          margin: 1em 0;
+          span,
+          a {
+            margin: 0 0.5em;
+          }
+          a {
+            color: white;
+            text-decoration: none;
+            &:hover {
+              color: $bro;
+              transition: 0.3s;
+              text-decoration: line-through;
+            }
+          }
+        }
+      }
+    }
+    .form {
+      width: 100%;
+      .email-name {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+        gap: 0.5em;
+        div {
+          width: 100%;
+        }
+      }
+      textarea {
+        height: 10em;
+        resize: none;
+      }
+      .button-64 {
+        position: absolute;
+        padding: 1em 0;
+        right: 0;
+        button {
+          font: 1.4em;
+        }
+      }
+    }
+  }
+}

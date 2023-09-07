@@ -1,0 +1,16 @@
+@import "./color";
+@import "../components/navbar/_navbar";
+@import "../components/home/home";
+@import "../components/about/about";
+@import "../components/projects/projects";
+@import "../components/skills/skills";
+@import "../components/contact/contact";
+@import "../components/scrollToTop/scrollToTop";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: $bg-100 !important;
+}

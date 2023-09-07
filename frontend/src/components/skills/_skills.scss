@@ -1,0 +1,45 @@
+@import "../../scss/_color";
+
+.container.skills {
+  position: relative;
+  top: 5em;
+
+  h1 {
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  .content {
+    color: white;
+    > div {
+      //   display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      text-transform: capitalize;
+      border: 1px solid white;
+      border-radius: 23px;
+      margin: 1em;
+      h2 {
+        margin: 0.5em;
+        width: 100%;
+        text-align: center;
+        text-transform: capitalize;
+        color: $primary-300;
+      }
+      .icons {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        img {
+          width: 4em;
+          object-fit: cover;
+          border-radius: 50%;
+          height: 4em;
+          margin: 1em;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  width: 2em;
+  height: 2em;
+  padding: 0.5em;
+  z-index: 2345678876544567;
+  cursor: pointer;
+  border-radius: 50%;
+  color: $bg-100;
+  background-color: $bro;
+  transition: 0.3s;
+  &:hover {
+    color: $bro;
+    transition: 0.3s;
+    background-color: $bg-100;
+  }
+  &.hidd {
+    display: none;
+  }
+  &.act {
+    display: inherit;
+  }
+}

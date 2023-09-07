@@ -1,0 +1,57 @@
+@import "../../scss/_color";
+#about {
+  height: 70vh;
+  position: relative;
+  color: white;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: $bro;
+  .svgs {
+    position: absolute;
+    top: 5em;
+    right: 5em;
+    width: 20em;
+    z-index: -45674567;
+  }
+  h1 {
+    width: 100%;
+    text-align: center;
+  }
+  div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    img {
+      width: 50%;
+      height: 50%;
+      border-radius: 23px;
+    }
+    p {
+      width: 45%;
+      text-transform: capitalize;
+    }
+  }
+}
+@media (max-width: 600px) {
+  #about {
+    height: 50vh;
+
+    .svgs {
+      display: none;
+    }
+
+    div.container {
+      img {
+        display: none;
+      }
+      p {
+        font-size: 1em;
+        width: 100%;
+      }
+    }
+  }
+}
