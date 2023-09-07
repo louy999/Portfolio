@@ -30,6 +30,34 @@
     }
   }
 }
+@media (max-width: 1399px) {
+  .container.home {
+    .content {
+      .type-name {
+        font-size: 1.9em;
+        color: white;
+      }
+      .dev {
+        font-size: 0.9em;
+      }
+    }
+    .img-con {
+      margin-top: 3em;
+      svg {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .container.home {
+    justify-content: center;
+    .content {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
 @media (max-width: 600px) {
   .container.home {
     height: 70vh;
