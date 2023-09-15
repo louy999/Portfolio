@@ -132,6 +132,11 @@
     display: none;
   }
 }
+@media (max-width: 500px) {
+  .container.home {
+    height: 60vh;
+  }
+}
 #about {
   height: 70vh;
   position: relative;
@@ -183,6 +188,11 @@
   #about div.container p {
     font-size: 1em;
     width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  #about {
+    height: 40vh;
   }
 }
 #projects {
@@ -382,6 +392,11 @@
 }
 .contact .form .button-64 button {
   font: 1.4em;
+}
+.contact .form .button-644 {
+  position: absolute;
+  padding: 0 0;
+  right: 0;
 }
 
 @media (max-width: 600px) {

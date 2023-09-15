@@ -21,7 +21,7 @@ const Home = () => {
       <div className="content">
         <Typed
           className="type-name"
-          strings={["Hi there, I'm Loay Hany"]}
+          strings={["Hi there, I'm Louy Hany"]}
           typeSpeed={40}
         />
         <div>

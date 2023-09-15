@@ -81,3 +81,8 @@
     }
   }
 }
+@media (max-width: 500px) {
+  .container.home {
+    height: 60vh;
+  }
+}
