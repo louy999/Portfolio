@@ -34,7 +34,7 @@ const Form = () => {
             await axios
               .post(`${env.verL}/ver`, input)
               .then((res: any) => {
-                res.request.statusText === "OK"
+                res.request.statusText !== ""
                   ? setData("ok, sent")
                   : setData("your connection");
               })
