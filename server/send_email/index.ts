@@ -5,7 +5,7 @@ const sendMail = (email: any, name: any, text: any) => {
 		service: 'gmail',
 		auth: {
 			user: 'louyhany999@gmail.com',
-			pass: 'ktcytwwzwrhqqelk',
+			pass: 'hfhswiklgltvzxtr',
 		},
 	})
 	transporter.sendMail(
