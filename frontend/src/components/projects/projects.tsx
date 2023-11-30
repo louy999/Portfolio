@@ -18,6 +18,13 @@ const Projects = () => {
                 <Link to={`${p.url2}`} className="button-64">
                   <ButtonClick text="To Code" />
                 </Link>
+                {p.url3 !== "" ? (
+                  <Link to={`${p.url3}`} className="button-64">
+                    <ButtonClick text="Open Site" />
+                  </Link>
+                ) : (
+                  ""
+                )}
               </div>
             </div>
           ))}

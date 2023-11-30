@@ -8,14 +8,13 @@ import {
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
+import BackContact from "../backConact/backContact";
 const Contact = () => {
   useEffect(() => {}, []);
   return (
     <>
       <div className="container contact" id="#contact">
-        <h1 className="animate__animated animate__heartBeat animate__infinite">
-          Contact Us
-        </h1>
+        <h1 className="animate__animated">Contact Us</h1>
         <div className="con-content">
           <Form />
           <div className="info">
@@ -59,6 +58,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <BackContact />
       </div>
     </>
   );

@@ -1,4 +1,5 @@
 import { skills } from "../data";
+import BackTools from "../backTools/backTools";
 const Skills = () => {
   return (
     <section id="skills" className="container skills">
@@ -19,6 +20,7 @@ const Skills = () => {
           </div>
         ))}
       </div>
+      <BackTools />
     </section>
   );
 };

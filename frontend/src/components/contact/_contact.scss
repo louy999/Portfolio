@@ -3,6 +3,7 @@
   margin: 0 auto;
   height: 100vh;
   overflow: hidden;
+  position: relative;
   color: white;
   h1 {
     text-align: center;
@@ -119,6 +120,14 @@
           font: 1.4em;
         }
       }
+    }
+  }
+}
+
+@media (max-width: 765px) {
+  .con-content {
+    form {
+      width: 100% !important;
     }
   }
 }
