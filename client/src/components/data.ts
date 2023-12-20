@@ -89,6 +89,20 @@ export const skills = [
 
 export const Project = [
   {
+    id: 9,
+    name: "Byte Mall",
+    url: "Screenshot from 2023-11-30 02-11-25.png",
+    url2: "https://github.com/louy999/bytemall",
+    url3: "https://bytemall-louy999.vercel.app",
+  },
+  {
+    id: 8,
+    name: "Whale for trade",
+    url: "Screenshot from 2023-09-07 23-48-38.png",
+    url2: "https://github.com/louy999/whale4tradeWork",
+    url3: "",
+  },
+  {
     id: 1,
     name: "Launch countdown timer",
     url: "https://github.com/louy999/launch-countdown-timer-main/raw/master/design/desktop-preview.jpg",
@@ -136,19 +150,5 @@ export const Project = [
     url: "https://github.com/louy999/calculator-app-main/raw/master/design/desktop-preview.jpg",
     url2: "https://github.com/louy999/calculator-app-main",
     url3: "",
-  },
-  {
-    id: 8,
-    name: "Whale for trade",
-    url: "Screenshot from 2023-09-07 23-48-38.png",
-    url2: "https://github.com/louy999/whale4tradeWork",
-    url3: "",
-  },
-  {
-    id: 9,
-    name: "Byte Mall",
-    url: "Screenshot from 2023-11-30 02-11-25.png",
-    url2: "https://github.com/louy999/bytemall",
-    url3: "https://bytemall-louy999.vercel.app",
   },
 ];
