@@ -34,18 +34,21 @@ const Form = () => {
             await axios
               .post(`${env.verL}/ver`, input)
               .then((res: any) => {
+                console.log(res);
+
                 res.request.statusText !== ""
-                  ? setData("ok, sent")
-                  : setData("your connection");
+                  ? setData("your connection is down 😥")
+                  : setData("ok, sent");
               })
               .then(() => {
                 setTimeout(() => {
                   setData("send me");
                 }, 5000);
               });
-            setLoading(false);
           } catch (error) {
             console.log(error);
+          } finally {
+            setLoading(false);
           }
         } else {
           setTimeForCon("subject is empty");
